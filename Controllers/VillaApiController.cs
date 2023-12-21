@@ -1,22 +1,27 @@
 using Microsoft.AspNetCore.Mvc;
+using VillaApi.Data;
 using VillaApi.Models;
+using VillaApi.Models.Dto;
 
 namespace VillaApi.Controllers
 {
     [ApiController]//defines it is a controller
     [Route("api/VillaApi")]
+    // [Route("api/[controller]")] --> can use the controller instead of explicity defining the controller name
     public class VillaApiController : ControllerBase //controllerBase doesnot have support for views
     {
         [HttpGet]
-        public IEnumerable<Villa> GetVillas()
+        public IEnumerable<VillaDto> GetVillas()
         {
-            return new List<Villa>()
-            {
-                new Villa(){Id=1, Name="Pool Villa"},
-                new Villa(){Id=2, Name="Beach Villa"},
-
-            };
+            return VillaStore.villaList;
+            
         }
+       [HttpGet("id")]
+        public VillaDto GetVilla(int id)
+        {
+            var villa = VillaStore.villaList.FirstOrDefault(u => u.Id == id);
+            return villa;
+        } 
     }
 
 
