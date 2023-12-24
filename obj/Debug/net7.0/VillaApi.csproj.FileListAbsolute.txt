@@ -31,3 +31,7 @@
 /Users/dheeraj/Desktop/Projects/C#/VillaApi/obj/Debug/net7.0/VillaApi.pdb
 /Users/dheeraj/Desktop/Projects/C#/VillaApi/obj/Debug/net7.0/VillaApi.genruntimeconfig.cache
 /Users/dheeraj/Desktop/Projects/C#/VillaApi/obj/Debug/net7.0/ref/VillaApi.dll
+/Users/dheeraj/Desktop/Projects/C#/VillaApi/bin/Debug/net7.0/Microsoft.AspNetCore.JsonPatch.dll
+/Users/dheeraj/Desktop/Projects/C#/VillaApi/bin/Debug/net7.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+/Users/dheeraj/Desktop/Projects/C#/VillaApi/bin/Debug/net7.0/Newtonsoft.Json.dll
+/Users/dheeraj/Desktop/Projects/C#/VillaApi/bin/Debug/net7.0/Newtonsoft.Json.Bson.dll

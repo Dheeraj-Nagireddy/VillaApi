@@ -6,8 +6,8 @@ namespace VillaApi.Data
 	{
 		public static List<VillaDto> villaList = new List<VillaDto>()
 		{
-			new VillaDto(){Id=1, Name="Pool Villa"},
-			new VillaDto(){Id=2, Name="Beach Villa"}
+			new VillaDto(){Id=1, Name="Pool Villa", Sqft=100,Occupancy=4},
+			new VillaDto(){Id=2, Name="Beach Villa",Sqft= 200,Occupancy=3}
 		};
 
 	}
