@@ -9,6 +9,8 @@ namespace VillaApi.Models.Dto
         [Required] //DataAnnotation
         [MaxLength(30)]
         public string Name { get; set; }
+        public int Sqft { get; set; }
+        public int Occupancy { get; set; }
         
 
     }   
