@@ -1,0 +1,54 @@
+2023-12-27 20:23:50.728 -05:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-12-27 20:23:50.780 -05:00 [DBG] Hosting starting
+2023-12-27 20:23:50.805 -05:00 [INF] Now listening on: http://localhost:5034
+2023-12-27 20:23:50.805 -05:00 [DBG] Loaded hosting startup assembly VillaApi
+2023-12-27 20:23:50.805 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-27 20:23:50.805 -05:00 [INF] Hosting environment: Development
+2023-12-27 20:23:50.806 -05:00 [INF] Content root path: /Users/dheeraj/Desktop/Projects/C#/VillaApi
+2023-12-27 20:23:50.806 -05:00 [DBG] Hosting started
+2023-12-27 20:24:22.343 -05:00 [DBG] Connection id "0HN078ESBRK6L" accepted.
+2023-12-27 20:24:22.345 -05:00 [DBG] Connection id "0HN078ESBRK6L" started.
+2023-12-27 20:24:22.390 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5034/swagger/index.html - -
+2023-12-27 20:24:22.393 -05:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-12-27 20:24:22.405 -05:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-12-27 20:24:22.405 -05:00 [DBG] Request did not match any endpoints
+2023-12-27 20:24:22.462 -05:00 [DBG] Connection id "0HN078ESBRK6L" completed keep alive response.
+2023-12-27 20:24:22.462 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5034/swagger/index.html - - - 200 - text/html;charset=utf-8 74.4467ms
+2023-12-27 20:24:22.595 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5034/swagger/v1/swagger.json - -
+2023-12-27 20:24:22.595 -05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-12-27 20:24:22.595 -05:00 [DBG] Request did not match any endpoints
+2023-12-27 20:24:22.655 -05:00 [DBG] Connection id "0HN078ESBRK6L" completed keep alive response.
+2023-12-27 20:24:22.655 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5034/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 60.1893ms
+2023-12-27 20:24:23.490 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5034/swagger/index.html - -
+2023-12-27 20:24:23.490 -05:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-12-27 20:24:23.491 -05:00 [DBG] Request did not match any endpoints
+2023-12-27 20:24:23.494 -05:00 [DBG] Connection id "0HN078ESBRK6L" completed keep alive response.
+2023-12-27 20:24:23.494 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5034/swagger/index.html - - - 200 - text/html;charset=utf-8 3.8916ms
+2023-12-27 20:24:23.551 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5034/swagger/v1/swagger.json - -
+2023-12-27 20:24:23.551 -05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-12-27 20:24:23.551 -05:00 [DBG] Request did not match any endpoints
+2023-12-27 20:24:23.558 -05:00 [DBG] Connection id "0HN078ESBRK6L" completed keep alive response.
+2023-12-27 20:24:23.559 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5034/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 7.6732ms
+2023-12-27 20:24:25.910 -05:00 [DBG] Connection id "0HN078ESBRK6L" received FIN.
+2023-12-27 20:24:25.915 -05:00 [DBG] Connection id "0HN078ESBRK6L" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-27 20:24:25.922 -05:00 [DBG] Connection id "0HN078ESBRK6L" disconnecting.
+2023-12-27 20:24:25.924 -05:00 [DBG] Connection id "0HN078ESBRK6L" stopped.
+2023-12-27 20:24:28.763 -05:00 [DBG] Connection id "0HN078ESBRK6M" accepted.
+2023-12-27 20:24:28.764 -05:00 [DBG] Connection id "0HN078ESBRK6M" started.
+2023-12-27 20:24:28.765 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5034/swagger/index.html - -
+2023-12-27 20:24:28.766 -05:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-12-27 20:24:28.766 -05:00 [DBG] Request did not match any endpoints
+2023-12-27 20:24:28.768 -05:00 [DBG] Connection id "0HN078ESBRK6M" completed keep alive response.
+2023-12-27 20:24:28.768 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5034/swagger/index.html - - - 200 - text/html;charset=utf-8 2.6619ms
+2023-12-27 20:24:28.839 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5034/swagger/v1/swagger.json - -
+2023-12-27 20:24:28.839 -05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-12-27 20:24:28.839 -05:00 [DBG] Request did not match any endpoints
+2023-12-27 20:24:28.846 -05:00 [DBG] Connection id "0HN078ESBRK6M" completed keep alive response.
+2023-12-27 20:24:28.846 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5034/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 7.1418ms
+2023-12-27 20:24:30.908 -05:00 [DBG] Connection id "0HN078ESBRK6M" received FIN.
+2023-12-27 20:24:30.908 -05:00 [DBG] Connection id "0HN078ESBRK6M" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-27 20:24:30.909 -05:00 [DBG] Connection id "0HN078ESBRK6M" disconnecting.
+2023-12-27 20:24:30.909 -05:00 [DBG] Connection id "0HN078ESBRK6M" stopped.
+2023-12-27 20:25:26.962 -05:00 [INF] Application is shutting down...
+2023-12-27 20:25:26.963 -05:00 [DBG] Hosting stopping
+2023-12-27 20:25:26.976 -05:00 [DBG] Hosting stopped

@@ -11,12 +11,18 @@ namespace VillaApi.Controllers
     // [Route("api/[controller]")] --> can use the controller instead of explicity defining the controller name
     public class VillaApiController : ControllerBase //controllerBase doesnot have support for views
     {
+        private readonly ILogger<VillaApiController> _logger;
 
+        public VillaApiController(ILogger<VillaApiController> logger)
+        {
+            _logger = logger;
+        }
         // Get list of villas
 
         [HttpGet]
         public ActionResult<IEnumerable<VillaDto>> GetVillas()
         {
+            _logger.LogInformation("Getting all Villas"); //logging
             return Ok(VillaStore.villaList);
         }
 
@@ -35,6 +41,8 @@ namespace VillaApi.Controllers
         {
             if (id == 0)
             {
+                // logging
+                _logger.LogInformation("Get Villa Error with Id "+id );
                 return BadRequest();
             }
             var villa = VillaStore.villaList.FirstOrDefault(u => u.Id == id);
@@ -134,6 +142,8 @@ namespace VillaApi.Controllers
 
         // https://www.youtube.com/watch?v=_uZYOgzYheU&t=4723s (1:18-1:24)
         // refer above video to download required nuget packages
+        // dotnet add package Microsoft.AspNetCore.JsonPatch --version 7.0.0
+        // dotnet add package Microsoft.AspNetCore.Mvc.NewtonsoftJson --version 7.0.0-preview.5.22303.8
 
         [HttpPatch("id",Name ="Update Partial Villa")]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
